@@ -1,0 +1,22 @@
+.share-container {
+  list-style: none;
+  padding: 0;
+  a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+  }
+  .share-item {
+    display: inline;
+    padding: 0.4em;
+  }
+  a.twitter {
+    background: url('<%= image_path "share/twitter.png" %>') no-repeat;
+  }
+  a.facebook {
+    background: url('<%= image_path "share/facebook.png" %>') no-repeat;
+  }
+  a.google {
+    background: url('<%= image_path "share/googleplus.png" %>') no-repeat;
+  }
+}
